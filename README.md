@@ -1,16 +1,16 @@
 # Info
-Reynard Hans Prayoga
+Reynard Hans Prayoga\
 BNCC2301081
 
-## Tata Cara
-Perlu menuliskan beberapa command (melalui command prompt) sebelum menjalankan program
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate -–seed
-php artisan storage:link
+Perlu menuliskan beberapa command (***melalui command prompt***) sebelum menjalankan program\
+`composer install`\
+`cp .env.example .env`\
+`php artisan key:generate`\
+`php artisan migrate:fresh –-seed`\
+`php artisan storage:link`
 
-Lalu jalankan php artisan serve
+Lalu jalankan
+`php artisan serve`
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
