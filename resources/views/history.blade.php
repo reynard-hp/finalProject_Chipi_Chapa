@@ -20,11 +20,12 @@
                             <td>{{ $invoice->id }}</td>
                             <td>{{ $invoice->address }}</td>
                             <td>{{ $invoice->created_at }}</td>
-                            <td>{{ $invoice->total_price }}</td>
+                            <td>Rp{{ $invoice->total_price }}</td>
                             <td colspan="2">
                                 <ul>
                                     @foreach ($invoice->invoiceDetails as $detail)
-                                        <li>{{ $detail->item->Name }} - {{ $detail->quantity }} x {{ $detail->item->Price }}
+                                        <li>{{ $detail->item->Name }} - ({{ $detail->quantity }}x) -
+                                            Rp{{ $detail->item->Price }}
                                         </li>
                                     @endforeach
                                 </ul>
