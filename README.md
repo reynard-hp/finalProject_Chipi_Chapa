@@ -4,7 +4,7 @@ BNCC2301081
 
 Perlu menuliskan beberapa command (***melalui command prompt***) sebelum menjalankan program\
 `composer install`\
-`cp .env.example .env`\
+`copy .env.example .env`\
 `php artisan key:generate`\
 `php artisan migrate:fresh –-seed`\
 `php artisan storage:link`
