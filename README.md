@@ -1,3 +1,19 @@
+# Info
+Reynard Hans Prayoga\
+BNCC2301081
+
+Perlu menuliskan beberapa command (***melalui command prompt***) sebelum menjalankan program\
+`composer install`\
+`copy .env.example .env`\
+`php artisan key:generate`\
+`php artisan migrate:fresh –-seed`\
+`php artisan storage:link`
+
+Lalu jalankan
+`php artisan serve`
+
+Menggunakan XAMPP untuk database
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
